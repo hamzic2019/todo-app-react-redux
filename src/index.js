@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+// Routing
+import AppRouter from './routes/AppRouter'
+
 ReactDOM.render(
-  <h1>DOSADAN SI</h1>,
+  <AppRouter />,
   document.getElementById('root')
 );
